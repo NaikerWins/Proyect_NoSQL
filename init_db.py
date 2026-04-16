@@ -72,7 +72,7 @@ if 'documents' not in db.list_collection_names():
 
  
 
-# Crear indices tradicionales 
+
 
 db.chunks.create_index([('category', ASCENDING)]) 
 
